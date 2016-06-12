@@ -25,7 +25,7 @@ application:
 spring:
   profiles: lattice
   jpa:
-    show_sql: false
+    show_sql: true
     hibernate:
       ddl-auto: none
   datasource:
