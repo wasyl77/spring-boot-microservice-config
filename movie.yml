@@ -46,7 +46,7 @@ ribbon:
 spring:
   profiles: development
   jpa:
-    show_sql: false
+    show_sql: true
     hibernate:
       ddl-auto: update
 server:
